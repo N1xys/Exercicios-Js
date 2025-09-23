@@ -7,7 +7,24 @@
 </head>
 <body>
     <script>
-        
+        let letra = prompt('Digite uma letra')
+
+        if (letra =="a" || letra =="A"||
+            letra =="e" || letra =="E"||
+            letra =="i" || letra =="I"||
+            letra =="o" || letra =="O"||
+            letra =="u" || letra =="U"){
+
+                alert('você digitou uma vogal')
+
+            } else if(!isNaN(letra)){
+
+                alert('você não digitou uma letra')
+
+            }else{
+
+                alert('você digitou uma consoante')
+            }
     </script>
 </body>
 </html>
